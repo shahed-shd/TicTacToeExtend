@@ -19,10 +19,10 @@ source.include_exts = py,png,jpg,kv,atlas,wav,txt,ttf
 source.include_patterns = assets/*,images/*.png,images/player_icons/*.png,audios/*.mp3
 
 # (list) Source files to exclude (let empty to not exclude anything)
-#source.exclude_exts = spec
+source.exclude_exts = spec, .md, .gitignore
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-source.exclude_dirs = tests, bin, build_necessaries
+source.exclude_dirs = tests, bin, build_necessaries, .buildozer, .idea, .git
 
 # (list) List of exclusions using pattern matching
 #source.exclude_patterns = license,images/*/*.jpg
